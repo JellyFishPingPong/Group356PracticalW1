@@ -4,12 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-       />
+        android:gravity="center"
+        android:text="@string/TextNumber"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/rollBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnName" />
 
 </LinearLayout>
